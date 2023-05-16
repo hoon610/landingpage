@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+}
+.panel-1{
+    display: flex;
+}
+.panel-1-1{
+    display: flex;
+    flex-direction: column;
+}
+.panel-1-img{
+    width:500px;
+    height:500px
+}
+.panel-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardbox{
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.cardpic{
+    width:500px;
+    height:500px
+}
+.panel-3{
+    display: flex;
+    flex-direction: column;
+}
+.panel-4{
+    display: flex;
+
+}
+.panel-4-1{
+    display: flex;
+    flex-direction: column;
+}
