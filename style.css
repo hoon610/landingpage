@@ -58,6 +58,10 @@ body{
 .panel-3{
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20%
 }
 .panel-4{
     display: flex;
@@ -123,5 +127,18 @@ box-shadow: none;
     
     justify-content: center;
     align-items: center;
-  
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+    
+    
+}
+.quote-author{
+    align-self: flex-end;
+    font-size: 23px;
+    font-weight: 900;
+    margin-top: 0;
 }
