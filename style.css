@@ -12,8 +12,7 @@ body{
     display: flex;
     align-items: center;
     gap: 19px;
-    padding: 0 15%;
-    
+    padding: 0 15%;   
 }
 .panel-1{
     display: flex;
@@ -22,15 +21,11 @@ body{
     gap: 60px;
     justify-content: center;
     align-items: center;
-
 }
 .panel-1-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
-
 }
 .panel-1-img{
     height: 300px;
@@ -45,7 +40,6 @@ body{
     padding-bottom: 120px;
     gap: 90px
 }
-
 .cardbox{
     display: flex;
     gap: 66px
@@ -54,7 +48,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 .panel-3{
     display: flex;
     flex-direction: column;
@@ -65,13 +58,21 @@ body{
 }
 .panel-4{
     display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    width: 75%;
+    height: 130px;
+    align-self: center;
+    margin: 110px;
+    border-radius: 7px;
 
 }
 .panel-4-1{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 50%
 }
-
 .logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -98,8 +99,7 @@ body{
     outline: none;
     border: none;
     margin: 10px 0;
-
-box-shadow: none;
+    box-shadow: none;
 }
 .panel-1-text{
     margin: 10px 0
@@ -109,7 +109,6 @@ box-shadow: none;
     font-weight: 900;
     color: #1F2937;
     margin: 0
-    ;
 }
 .cardpic{
     object-fit: contain;
@@ -118,8 +117,6 @@ box-shadow: none;
     border: solid;
     border-color: #3882F6;
     border-radius: 13px;
-  
-    
 }
 .card{
     height: 140px;
@@ -133,12 +130,34 @@ box-shadow: none;
     font-style: italic;
     color: #1F2937;
     margin-bottom: 0;
-    
-    
 }
 .quote-author{
     align-self: flex-end;
     font-size: 23px;
     font-weight: 900;
     margin-top: 0;
+}
+.panel-4-title{
+    font-size: 25px;
+    color: #E5E7EB;
+    margin: 0;
+    font-weight: 900;
+}
+.panel-4-text{
+    font-size: 17px;
+    color: #E5E7EB;
+    margin: 0;
+}
+.panel-4-button{
+    background-color: #3882F6;
+    color: white;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: solid;
+    border-color: #E5E7EB;
+    margin: 10px 0;
+    align-self: center;
 }
