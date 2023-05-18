@@ -39,19 +39,22 @@ body{
 .panel-2{
     display: flex;
     flex-direction: column;
+    
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    gap: 90px
 }
 
 .cardbox{
     display: flex;
+    gap: 66px
 }
 .card{
     display: flex;
     flex-direction: column;
 }
-.cardpic{
-    width:500px;
-    height:500px
-}
+
 .panel-3{
     display: flex;
     flex-direction: column;
@@ -96,4 +99,29 @@ box-shadow: none;
 }
 .panel-1-text{
     margin: 10px 0
+}
+.panel-2-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0
+    ;
+}
+.cardpic{
+    object-fit: contain;
+    height: 160px;
+    width: 160px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 13px;
+  
+    
+}
+.card{
+    height: 140px;
+    width: 140px;
+    
+    justify-content: center;
+    align-items: center;
+  
 }
