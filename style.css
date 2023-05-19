@@ -42,7 +42,8 @@ body{
 }
 .cardbox{
     display: flex;
-    gap: 66px
+    gap: 66px;
+    align-tems: flex-start
 }
 .card{
     display: flex;
