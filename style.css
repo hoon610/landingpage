@@ -37,16 +37,23 @@ body{
     
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 120px;
-    gap: 90px
+    padding-bottom: 180px;
+    gap: 60px
 }
 .cardbox{
     display: flex;
-    gap: 66px
+    gap: 66px;
+    align-items: flex-start;
+    flex-direction: row;
+    
 }
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    
 }
 .panel-3{
     display: flex;
@@ -117,12 +124,13 @@ body{
     border: solid;
     border-color: #3882F6;
     border-radius: 13px;
+    
 }
 .card{
     height: 140px;
     width: 140px;
     
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .quote{
